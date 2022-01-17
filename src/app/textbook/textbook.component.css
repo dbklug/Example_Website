@@ -1,0 +1,138 @@
+body {
+    background: #1c2126;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 65px;
+    padding-top: 80px;
+    color: #9e2b38;
+    text-align: center;
+  }
+
+  #loading-div {
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #loading-div-hidden {
+    opacity: 0;
+    margin-top: 0px;
+  }
+
+  #loading-circle {
+    display: inline-block;
+    transition: all 0.1s ease-out;
+    border:8px outset rgba(190, 142, 142, 0.644);    
+    height:107px;
+    width:107px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    color: rgba(189, 141, 141, 0.329);
+  }
+  
+  ul {
+    margin-right: 50px;
+    opacity: 0;
+    margin-top: 100px;
+    transition: all 0.5s;
+    list-style-type: none;
+  }
+  
+  ul li:hover {
+    color: #9e2b38;
+  }
+
+  /* handling mobile devices */
+
+  /* iPhone 5 */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  ul li {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+
+/* Galaxy S5 */
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 640px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  ul li {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+
+/* Galaxy S8, S8+, S9, S9+, S10, S10+ */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 740px)
+  and (-webkit-min-device-pixel-ratio: 4) {
+    h1 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+    ul li {
+      font-size: 20px;
+      line-height: 45px;
+    }
+}
+
+/* iPhone 6, 7, 8 Plus */
+@media only screen
+and (min-device-width: 414px)
+and (min-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  ul li {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+
+/* iPhone 6, 7, 8  */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  ul li {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}
+
+/* Galaxy S4, S5, Note 3 */
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 414px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  ul li {
+    font-size: 20px;
+    line-height: 45px;
+  }
+}

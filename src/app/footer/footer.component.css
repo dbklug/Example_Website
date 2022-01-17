@@ -1,0 +1,104 @@
+footer {
+  background: black;
+}
+
+#copyright {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-light {
+    background-color: #1f386e !important;
+  }
+  
+a.bg-light:hover, a.bg-light:focus,
+button.bg-light:hover,
+button.bg-light:focus {
+  background-color: #dae0e5 !important;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+a.bg-dark:hover, a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #1d2124 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+  
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.text-muted {
+  color: #ffffff !important;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  footer {
+    font-size: 1.0rem;
+  }  
+}
+
+@media (min-width: 768px) {
+  footer {
+    font-size: 1.0rem;
+  }  
+}
+
+@media (min-width: 500px) {
+  footer {
+    font-size: 1.0rem;
+  }  
+}
+
+/* Galaxy S8, S8+, S9, S9+, S10, S10+ */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 740px)
+  and (-webkit-min-device-pixel-ratio: 4) {
+    footer {
+      font-size: 0.8rem;
+    }
+}
+
+/* Galaxy S4, S5, Note 3 */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 414px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    footer {
+      font-size: 0.7rem;
+    }
+}
+
+/* iPhone 6, 7, 8 */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    footer {
+      font-size: 0.7rem;
+    }
+}
+
+/* iPhone */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    footer   {
+      font-size: 0.7rem;
+    }
+}

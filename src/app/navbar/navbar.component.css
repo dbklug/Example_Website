@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav {
+    z-index: 9;
+    position: fixed;
+    background: #000000;
+    height: 72px;
+    width: 100%;
+    opacity: 0;
+    margin-top: -80px;
+}
+
+#logo {
+    margin-top: 9px;
+    width: 50px;
+    height: 30px;
+}
+
+#nav-logo-text {
+    margin-top: 2px;
+}
+
+#nav-item {
+    cursor: pointer;
+}
+
+#hamburgerIcon {
+    margin-top: -8px;
+}
+
+.image-div {
+    display: inline-block;
+    padding: 13px 100px; 
+}
+
+#navbarResponsive {
+    margin-right: 3em;
+    float: right;
+}
+
+nav ul {
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+#nav-list {
+    line-height: 80px;
+}
+
+nav ul li a {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 7px 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b4b4b4;
+}
+
+
+#top-nav-text, #nav-text {
+    display: inline;
+}
+
+#archive-icon {
+    display: inline;
+    margin-left: 4px;
+    width: 19px;
+}
+
+#worldview-icon {
+    display: inline;
+    margin-left: 5px;
+    width: 15px;
+}
+
+#works-cited-icon {
+    display: inline;
+    margin-left: 6px;
+    width: 25px;
+}
+
+#contact-icon {
+    display: inline;
+    margin-left: 4px;
+    width: 24px;
+}
+
+p {
+    display: inline;
+    position: absolute;
+    color: white;
+    font-family: 'Tangerine', cursive;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 30px;
+}   
+
+.checkBtn {
+    font-size: 30px;
+    line-height: 92px;
+    margin-right: 40px;
+    float: right;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .checkBtn {
+        display: inline;
+    }
+    nav {
+        position: fixed;
+        z-index: 9;
+    }   
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(63, 52, 52, 0.925);
+        top: 72px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: -12px;
+    }
+    nav ui li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .image-div {
+        padding: 12px 30px; 
+    }
+}
+
+/* Galaxy S5 - Landscape*/
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    nav ul li {
+        line-height: 40px;
+    }
+}
+
+/* Galaxy S8, S8+, S9, S9+, S10, S10+ - Landscape */
+@media only screen 
+    and (min-width: 740px) 
+    and (orientation: landscape) { 
+    nav ul li {
+        line-height: 60px;
+    }
+}
+
+/* iPhone 6, 7, 8 - Landscape  */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+    nav ul li {
+        line-height: 50px;
+    }
+}
+
+/* iPhone 6, 7, 8 Plus */
+@media only screen
+  and (min-device-width: 414px)
+  and (min-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    nav ul li {
+        line-height: 55px;
+    }
+}
+
+/* Galaxy S4, S5, Note 3 */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 414px)
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    nav ul li {
+        line-height: 40px;
+    }
+}

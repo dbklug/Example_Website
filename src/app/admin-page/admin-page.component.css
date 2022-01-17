@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0 auto;
+    height: 100vh;
+    background: rgb(43, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#leftColumn {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border: 2px dotted white;
+}
+#rightColumn {
+    float: left;
+    width: 55%;
+}
+form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+h2 {
+    font-size: 28px;
+    color: white;
+    margin: 20px;
+}
+h3 {
+    margin-bottom: -15px;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+#titleTitle, #titleText, #descriptionTitle, #descriptionText {
+    margin-left: 20px;
+}
+#nextVideoParagraph {
+    display: inline;
+    margin-left: 20px;
+    color: rgb(189, 189, 189);
+}
+#nextVideoName {
+    display: inline;
+    color: white;
+}
+#uploads {
+    margin: 0 auto;
+    width: 750px;
+    background: rgb(70, 70, 70);
+}
+#uploads::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#myForm, #myPdfForm, #myThumbnailForm {
+    color: white;
+    margin: 5px;
+}
+#submitBtn {
+    margin-right: 15px;
+    margin-top: 15px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: rgb(134, 134, 134);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#progressBar {
+    margin: 10px;
+    width: 725px;
+}
+#responseText {
+    margin-bottom: -10px;
+    margin-top: 5px;
+    opacity: 0;
+    font-size: 12px;
+}
+input {
+    padding: 5px;
+    cursor: pointer;
+}
+#inpFile, #inpImageFile, #inpPdfFile {
+    width: 300px;
+}
+#titleText {
+    width: 375px;
+    cursor: text;
+}
+textarea {
+    width: 375px;
+    height: 140px;
+    font-size: 13px;
+    padding: 5px;
+    resize: none;
+}

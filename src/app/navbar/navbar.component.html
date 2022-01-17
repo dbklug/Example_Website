@@ -1,0 +1,30 @@
+<nav class="" id="mainNav">
+    <div class="bars-div" id="bars-div">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkBtn" (click)=toggleNav() id="hamburgerIcon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </div>
+    <div class="image-div" id="image-div">
+        <a class="" href="#page-top"><img src="../../assets/icon/flag_2.jpg" id="logo">
+            <p id="nav-logo-text">1776 Project</p>
+        </a>
+    </div>
+    <div id="navbarResponsive">
+        <ul id="nav-list">
+            <li id="nav-item"><a href="#archive" id="top-nav-text"(click)=toggleCheckbox()>Archive
+                <img src="../../assets/icon/archive.png" id="archive-icon"></a>
+            </li>
+            <li id="nav-item"><a href="#worldview" id="nav-text" (click)=toggleCheckbox()>Worldview
+                <img src="../../assets/icon/worldview.jpg" id="worldview-icon"></a>
+            </li>
+            <li id="nav-item"><a routerLink="/textbook" id="nav-text" (click)=toggleCheckbox()>Textbook
+                <img src="../../assets/icon/works-cited.jpg" id="works-cited-icon"></a>
+            </li>
+            <li id="nav-item"><a href="#contact" id="nav-text" (click)=toggleCheckbox()>Contact
+                <img src="../../assets/icon/contact.png" id="contact-icon"></a>
+            </li>
+            <!-- <li id="nav-item"><a routerLink="/donate" (click)=toggleCheckbox()>Donate</a></li> -->
+        </ul>
+    </div>
+</nav>
